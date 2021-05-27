@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/**
+ * @Thomas Chevarie courriel
+ *
+ * TABLE DES MATIERES
+ * Normalize
+ * Utilitaires
+ * Charte typographique
+ * Grille
+ * Formulaire
+ * Mise en page
+ ***
+ ***
+ ***
+ *
+ */
+
+
+/* Normalize
+   ========================================================================== */
+/*@import url(_normalize.css);*/
+
+/* Utilitaires
+   ========================================================================== */
+/*@import url(_utilitaires.css);*/
+
+/* Charte typographique
+   ========================================================================== */
+@import url(_typo.css);
+
+/* Grille
+   ========================================================================== */
+/*@import url(_grille.css);*/
+
+/* Mise en page
+   ========================================================================== */
+/*@import url(_form.css);*/
+
+
+/*  =======================================================  */
+
+.cards {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 220px 160px 160px 160px 160px 160px 160px 220px;
+        grid-gap: 20px;
+        grid-template-areas:
+            ". a a a a a a ."
+            "b b b b b b b b"
+            "b b b b b b b b"
+            "b b b b b b b b"
+            ". c c c c c c ."
+            ". d d d d e e ."
+            ". f f g g h h ."
+            ". f f g g i i ."
+            ". f f g g i i ."
+            ". f f g g i i ."
+            "j j . g g i i ."
+            "j j . l l l l l"
+            ". k k l l l l l"
+            ". k k l l l l l"
+            ". . . l l l l l";
+    }
+
+
+    .card1 {
+        grid-area: a;
+    }
+
+    .card2 {
+        grid-area: b;
+    }
+
+    .card3 {
+        grid-area: c;
+    }
+
+    .card4 {
+        grid-area: d;
+    }
+
+    .card5 {
+        grid-area: e;
+    }
+
+    .card6 {
+        grid-area: f;
+    }
+
+    .card7 {
+        grid-area: g;
+    }
+
+    .card8 {
+        grid-area: h;
+    }
+
+    .card9 {
+        grid-area: i;
+    }
+
+    .card10 {
+        grid-area: j;
+    }
+
+    .card11 {
+        grid-area: k;
+    }
+
+    .card12 {
+        grid-area: l;
+    }
+}
+
+@media (max-width: 600px) {
+    .body {
+        text-align: center;
+    }
+}
+
+
+.body {
+    background-color: #222222;
+         
+}
+.conteneur {
+    
+    background-color: #222222;
+
+}
+
+.media{
+    background-color: orange;
+    text-align: center
+}
+.copyright {
+    text-align: center;
+}
