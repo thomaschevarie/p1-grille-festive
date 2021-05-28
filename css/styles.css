@@ -19,24 +19,15 @@
 
 /* Normalize
    ========================================================================== */
-/*@import url(_normalize.css);*/
+@import url(_normalize.css);
 
 /* Utilitaires
    ========================================================================== */
-/*@import url(_utilitaires.css);*/
+@import url(_utilitaires.css);
 
 /* Charte typographique
    ========================================================================== */
 @import url(_typo.css);
-
-/* Grille
-   ========================================================================== */
-/*@import url(_grille.css);*/
-
-/* Mise en page
-   ========================================================================== */
-/*@import url(_form.css);*/
-
 
 /*  =======================================================  */
 
@@ -62,8 +53,8 @@
             ". f f g g i i ."
             ". f f g g i i ."
             ". f f g g i i ."
-            "j j . g g i i ."
-            "j j . l l l l l"
+            ". j j g g i i ."
+            ". j j l l l l l"
             ". k k l l l l l"
             ". k k l l l l l"
             ". . . l l l l l";
@@ -130,16 +121,40 @@
     background-color: #222222;
          
 }
+.layout {
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+}
 .conteneur {
     
     background-color: #222222;
 
+}
+.citation1 {
+    font-size: 2.6rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
 }
 
 .media{
     background-color: orange;
     text-align: center
 }
+.media_icon {
+    display: flex;
+  justify-content: space-around;
+
+}
+.citation2 {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+}
 .copyright {
+    align-items: center;
     text-align: center;
 }

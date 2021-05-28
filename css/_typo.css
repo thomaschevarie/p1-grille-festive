@@ -40,8 +40,8 @@ h2,
 .h2,
 h3,
 .h3,
-h4,
-.h4
+h3,
+.h3
 h5,
 .h5
 h6,
@@ -136,35 +136,9 @@ h2,
     }
 }
 
+
 h3,
 .h3 {
-    /* = 18px */
-    font-size: 1.8rem;
-    color: white;
-}
-
-@media (min-width: 600px) {
-
-    h3,
-    .h3 {
-        /* = 24px */
-        font-size: 2.4rem;
-    }
-}
-
-@media (min-width: 800px) {
-
-    h3,
-    .h3 {
-        /* = 30px */
-        font-size: 2.6rem;
-        margin-bottom: 0;
-        margin-top: 5px;
-    }
-}
-
-h4,
-.h4 {
     /* = 16px */
     font-size: 1.6rem;
     color: white;
@@ -172,8 +146,8 @@ h4,
 
 @media (min-width: 600px) {
 
-    h4,
-    .h4 {
+    h3,
+    .h3 {
         /* = 18px */
         font-size: 1.8rem;
     }
@@ -181,69 +155,11 @@ h4,
 
 @media (min-width: 800px) {
 
-    h4,
-    .h4 {
+    h3,
+    .h3 {
         /* = 22px */
         font-size: 2.2rem;
         margin-bottom: 5px;
         margin-top: 5px;
     }
 }
-
-h5,
-.h5 {
-    /* = 18px */
-    font-size: 1.8rem;
-    color: white;
-}
-
-@media (min-width: 600px) {
-
-    h5,
-    .h5 {
-        /* = 24px */
-        font-size: 2.4rem;
-    }
-}
-
-@media (min-width: 800px) {
-
-    h5,
-    .h5 {
-        /* = 30px */
-        font-size: 2rem;
-        margin-bottom: 5px;
-        margin-top: 5px
-    }
-}
-
-h6,
-.h6 {
-    /* = 16px */
-    font-size: 2rem;
-   margin-bottom: 10px;
-}
-
-@media (min-width: 600px) {
-
-    h6,
-    .h6 {
-        /* = 18px */
-        font-size: 1.8rem;
-     
-    }
-}
-
-@media (min-width: 800px) {
-
-    h6,
-    .h6 {
-        /* = 22px */
-        font-size: 2.2rem;
-        margin-bottom: 5px;
-        margin-top: 5px;
-         
-        
-    
-    }
-   
